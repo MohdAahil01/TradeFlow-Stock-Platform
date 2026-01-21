@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import {server} from "../enviornment";
 
 import GeneralContext from "./GeneralContext";
 import "./SellActionWindow.css";
@@ -13,7 +14,7 @@ const SellActionWindow = ({ uid }) => {
   const { closeSellWindow } = useContext(GeneralContext);
 
   const handleSellClick = () => {
-    axios.post("http://localhost:3002/newOrder", {
+    axios.post(`${ server }/newOrder`, {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
