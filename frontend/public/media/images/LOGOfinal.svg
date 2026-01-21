@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="609"
+     height="150"
+     viewBox="0 0 600 150"
+     preserveAspectRatio="xMidYMid meet">
+
+  <g fill="#4a90e2">
+    <path d="M40,40 H90 V60 H65 V110 H45 V60 H40 Z" />
+    
+    <path d="M70,70 L110,30 L100,30 L110,30 L110,40"
+          stroke="#4a90e2"
+          stroke-width="10"
+          stroke-linecap="round" />
+    
+    <polygon points="55,100 95,60 105,70 65,110" />
+    
+    <polygon points="90,40 120,40 120,30 130,30 130,60 100,60" />
+    
+    <text x="150"
+          y="95"
+          font-family="Arial, sans-serif"
+          font-weight="bold"
+          font-size="65"
+          letter-spacing="3">
+      TRADEFLOW
+    </text>
+  </g>
+</svg>
