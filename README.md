@@ -76,14 +76,7 @@ Follow these steps to set up the project locally.
     # Run backend and frontend concurrently (if configured)
     npm run dev
     ```
-
-## 📸 Screenshots
-
-*(Add screenshots of your Dashboard and Order page here. It makes the project look real to recruiters!)*
-
-<details>
-<summary>View App Screenshots</summary>
-<br>
+    
 
 | Dashboard | Order Screen |
 |:---:|:---:|
