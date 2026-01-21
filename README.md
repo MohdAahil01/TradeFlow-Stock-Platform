@@ -76,11 +76,6 @@ Follow these steps to set up the project locally.
     # Run backend and frontend concurrently (if configured)
     npm run dev
     ```
-    
-
-| Dashboard | Order Screen |
-|:---:|:---:|
-| <img src="assets/dashboard-placeholder.png" width="400"> | <img src="assets/order-placeholder.png" width="400"> |
 
 </details>
 
